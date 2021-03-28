@@ -1,0 +1,19 @@
+.participants__title,
+.participants__sub-title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 20px;
+}
+
+.participants__title > .MuiSvgIcon-root {
+  margin-right: 10px;
+}
+
+.participants__sub-title {
+  margin: 5px 20px;
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.1);
+}
