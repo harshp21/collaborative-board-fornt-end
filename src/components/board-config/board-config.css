@@ -1,17 +1,23 @@
 .board-config {
-  width: 100%;
   height: auto;
   padding: 25px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  left: 50%;
 }
-.clear-btn {
-  color: black;
-  padding: 10px 40px;
-  font-size: 20px;
-  background: #fff;
-  text-transform: uppercase;
+
+input[type="color"] {
+  border: none;
+  width: 32px;
+  height: 32px;
   cursor: pointer;
-  margin: 0px 20px;
+  outline: none;
+}
+
+.active-item > .MuiButtonBase-root,
+.board-config__items > .MuiButtonBase-root:hover {
+  background: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
 }
